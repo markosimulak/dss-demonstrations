@@ -46,7 +46,7 @@ import java.io.ByteArrayInputStream;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "signatureMultipleDocumentsForm", "signedDocument" })
 @RequestMapping(value = "/sign-multiple-documents")
 public class SignatureMultipleDocumentsController {

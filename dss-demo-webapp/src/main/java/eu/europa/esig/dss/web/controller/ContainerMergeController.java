@@ -27,7 +27,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "containerMergeForm", "mergedContainer" })
 @RequestMapping(value = "/merge-containers")
 public class ContainerMergeController {

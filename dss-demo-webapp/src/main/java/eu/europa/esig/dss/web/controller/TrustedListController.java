@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.Collections;
 import java.util.List;
 
-@Controller
+//@Controller
 @RequestMapping(value = "/tl-info")
 public class TrustedListController {
 	

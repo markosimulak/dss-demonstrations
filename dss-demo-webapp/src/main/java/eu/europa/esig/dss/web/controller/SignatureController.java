@@ -16,11 +16,7 @@ import eu.europa.esig.dss.utils.Utils;
 import eu.europa.esig.dss.web.WebAppUtils;
 import eu.europa.esig.dss.web.editor.ASiCContainerTypePropertyEditor;
 import eu.europa.esig.dss.web.editor.EnumPropertyEditor;
-import eu.europa.esig.dss.web.model.DataToSignParams;
-import eu.europa.esig.dss.web.model.GetDataToSignResponse;
-import eu.europa.esig.dss.web.model.SignDocumentResponse;
-import eu.europa.esig.dss.web.model.SignResponse;
-import eu.europa.esig.dss.web.model.SignatureDocumentForm;
+import eu.europa.esig.dss.web.model.*;
 import eu.europa.esig.dss.web.service.SigningService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -206,4 +202,17 @@ public class SignatureController {
 		return signingService.isMockTSPSourceUsed();
 	}
 
+
+	// kodit
+
+	@RequestMapping(value = "/sign-document-2", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public SignDocumentResponse signDocument(@RequestBody SignRequest request) {
+		LOG.info("Sign document with Kodit");
+		LOG.info(request.toString());
+
+		SignDocumentResponse signedDocumentResponse = new SignDocumentResponse();
+		signedDocumentResponse.setUrlToDownload("download");
+		return signedDocumentResponse;
+	}
 }

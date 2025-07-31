@@ -53,7 +53,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "counterSignatureForm", "signedDocument" })
 @RequestMapping(value = "/counter-sign")
 public class CounterSignatureController {

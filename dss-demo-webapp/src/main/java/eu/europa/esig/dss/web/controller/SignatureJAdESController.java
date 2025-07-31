@@ -47,7 +47,7 @@ import java.io.ByteArrayInputStream;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "signatureJAdESForm", "signedJAdESDocument" })
 @RequestMapping(value = "/sign-with-jades")
 public class SignatureJAdESController {

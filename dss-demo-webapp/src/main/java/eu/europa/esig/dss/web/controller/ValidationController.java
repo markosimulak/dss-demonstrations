@@ -69,7 +69,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-@Controller
+//@Controller
 @RequestMapping(value = "/validation")
 public class ValidationController extends AbstractValidationController {
 

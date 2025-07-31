@@ -38,7 +38,7 @@ import java.util.List;
 import java.util.Locale;
 
 
-@Controller
+//@Controller
 @SessionAttributes({ "simpleReportXml", "detailedReportXml", "diagnosticDataXml" })
 @RequestMapping(value = "/replay-diagnostic-data")
 public class ReplayDiagController extends AbstractValidationController {

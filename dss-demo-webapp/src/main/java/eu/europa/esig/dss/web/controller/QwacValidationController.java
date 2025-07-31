@@ -32,7 +32,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-@Controller
+//@Controller
 @RequestMapping(value = "/qwac-validation")
 public class QwacValidationController extends AbstractValidationController {
 

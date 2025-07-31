@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Home controller
  */
-@Controller
+//@Controller
 public class HomeController {
 
 	private static final String[] ALLOWED_FIELDS = { }; // nothing

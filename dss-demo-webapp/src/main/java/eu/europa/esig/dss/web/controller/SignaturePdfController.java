@@ -43,7 +43,7 @@ import java.io.ByteArrayInputStream;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "signaturePdfForm", "signedPdfDocument" })
 @RequestMapping(value = "/sign-a-pdf")
 public class SignaturePdfController {

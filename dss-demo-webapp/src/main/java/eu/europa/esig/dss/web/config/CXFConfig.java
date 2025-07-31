@@ -399,6 +399,7 @@ public class CXFConfig {
 		return sfb.create();
 	}
 
+
 	@Bean
 	public Server createServerSigningRestService() {
 		JAXRSServerFactoryBean sfb = new JAXRSServerFactoryBean();

@@ -15,7 +15,7 @@ import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-@Controller
+//@Controller
 public class NexuDeployScriptController {
 
 	@Value("${nexuDownloadUrl}")

@@ -44,7 +44,7 @@ import java.io.ByteArrayInputStream;
 import java.util.Date;
 import java.util.List;
 
-@Controller
+//@Controller
 @SessionAttributes(value = { "signatureDigestForm", "signedDocument" })
 @RequestMapping(value = "/sign-a-digest")
 public class DigestController {
